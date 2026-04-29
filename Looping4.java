@@ -4,10 +4,6 @@
  */
 package Tugas6;
 
-/**
- *
- * @author HELLO
- */
 //Lagu "Anak Ayam Turun N"
 import java.util.Scanner;
 
