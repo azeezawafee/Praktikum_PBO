@@ -4,10 +4,6 @@
  */
 package Tugas6;
 
-/**
- *
- * @author HELLO
- */
 //Menghitung deret bilangan ganjil dan genap dari 0-20 dengan hasilnya
 public class Looping2 {
     public static void main(String[]args){
