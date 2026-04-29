@@ -4,10 +4,6 @@
  */
 package Tugas6;
 
-/**
- *
- * @author HELLO
- */
 //Menghitung deret bilangan prima dan bukan dari 0-20 dengan hasilnya
 public class Looping1 {
     public static void main(String[]args){
@@ -33,45 +29,3 @@ public class Looping1 {
         }
     }
 }
-
-/*/Menghitung deret bilangan ganjil dan genap dari 0-20 dengan hasilnya
-class Looping2 {
-    public static void main(String[]args){
-        System.out.println("\nb. Menghitung deret bilangan ganjil dan genap dari 0-20 dengan hasilnya");
-        for(int i = 0; i <= 20; i++){
-            if(i % 2 == 0){
-                System.out.println(i + " = Genap");
-            }else{
-                System.out.println(i + " = Ganjil");
-            }
-        }
-    }
-}
-
-//Huruf Z-A
-class Looping3 {
-    public static void main(String[]args){
-        System.out.println("\nc. Huruf Z-A");
-        for(char c = 'Z'; c >= 'A'; c--) {
-            System.out.println(c + " ");
-        }
-    }
-}
-
-//Lagu "Anak Ayam Turun N"
-class Looping4 {
-    public static void main(String[]args){
-        Scanner input = new Scanner(System.in);
-        
-        System.out.println("\nd. Lagu 'Anak Ayam Turun N'");
-        System.out.println("\nMasukkan jumlah ayam: ");
-        int n = input.nextInt();
-        
-        System.out.println("\nLagu Anak Ayam: ");
-        
-        for(int i = n; i >= 1; i--) {
-            System.out.println("Anak ayam turun " + i + 
-                               ", mati satu tinggal " + (i - 1));
-        }
-    }
-}*/
