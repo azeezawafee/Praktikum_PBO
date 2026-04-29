@@ -4,10 +4,6 @@
  */
 package Tugas6;
 
-/**
- *
- * @author HELLO
- */
 //Huruf Z-A
 public class Looping3 {
     public static void main(String[]args){
