@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tugas9;
 
 public class HitungHari extends PenentuJumlahHari{
     public int hitung(int tahun, String bulan){
@@ -24,23 +23,3 @@ public class HitungHari extends PenentuJumlahHari{
         return jumlahHari;
     }
 }
-
-/*public class HitungHari extends PenentuJumlahHari {
-    public int hitung(int tahun, String bulan){
-        switch(bulan){
-            case "April", "Juni", "September", "November" -> {
-                return 30;
-            }
-            case "Februari" -> {
-                if((tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)){
-                    return 29;
-                }else{
-                    return 28;
-                }
-            }
-            default -> {
-                return 31;
-            }
-        }
-    }
-}*/
